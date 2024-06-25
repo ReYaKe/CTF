@@ -126,3 +126,8 @@ natas20 -> p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw:
 	Open URL: "natas20.natas.labs.overthewire.org/index.php?name=test%0Aadmin 1&debug" twice
 
 natas21 -> BPhv63cKE1lkQl04cE5CuFTzXe15NfiH:
+	Open URL: "natas21-experimenter.natas.labs.overthewire.org/index.php?admin=1&debug&submit"
+	Get session id cookie
+	Then open: "http://natas21.natas.labs.overthewire.org/" with new session id
+
+natas22 -> d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz:
