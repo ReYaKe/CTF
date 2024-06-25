@@ -121,6 +121,7 @@ natas15 -> SdqIqBsFcz3yotlNYErZSZwblkm0lrvx:
 	
 	
 natas16 -> hPkjKYviLQctEW33QmuXL6eDVfMW4sGo:
-	Disallowed characters: ; | & ` "
-	a%22 dictionary.txt #
-	te0x22 ^ /etc/natas_webpass/natas17 #
+
+natas20 -> p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw:
+
+natas21 -> BPhv63cKE1lkQl04cE5CuFTzXe15NfiH:
