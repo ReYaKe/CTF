@@ -131,3 +131,9 @@ natas21 -> BPhv63cKE1lkQl04cE5CuFTzXe15NfiH:
 	Then open: "http://natas21.natas.labs.overthewire.org/" with new session id
 
 natas22 -> d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz:
+	Open URL: "http://natas22.natas.labs.overthewire.org/" and check response HTML in burpsuite or similar tools
+
+natas23 -> dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs:
+	Enter password "123iloveyou"
+
+natas24 -> MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd:
