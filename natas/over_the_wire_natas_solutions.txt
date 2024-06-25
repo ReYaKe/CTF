@@ -123,5 +123,6 @@ natas15 -> SdqIqBsFcz3yotlNYErZSZwblkm0lrvx:
 natas16 -> hPkjKYviLQctEW33QmuXL6eDVfMW4sGo:
 
 natas20 -> p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw:
+	Open URL: "natas20.natas.labs.overthewire.org/index.php?name=test%0Aadmin 1&debug" twice
 
 natas21 -> BPhv63cKE1lkQl04cE5CuFTzXe15NfiH:
