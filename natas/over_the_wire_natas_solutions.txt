@@ -137,3 +137,6 @@ natas23 -> dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs:
 	Enter password "123iloveyou"
 
 natas24 -> MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd:
+	Open URL: "http://natas24.natas.labs.overthewire.org/?passwd[]="
+
+natas25 -> ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws:
