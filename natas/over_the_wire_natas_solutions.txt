@@ -154,3 +154,5 @@ natas26 -> cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE:
 	The file [some_file_name] now exists and contains the password (twice)
 
 natas27 -> u3RRffXjysjgwFU6b9xa23i6prmUsYne:
+
+natas28 -> 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
