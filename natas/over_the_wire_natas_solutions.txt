@@ -153,8 +153,11 @@ natas26 -> cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE:
 	Take the output and insert it into a get request as the "drawing" cookie on the main page
 	The file [some_file_name] now exists and contains the password (twice)
 
-natas27 -> u3RRffXjysjgwFU6b9xa23i6prmUsYne:
+natas27 -> u3RRffXjysjgwFU6b9xa23i6prmUsYne
 
 natas28 -> 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
 
 natas29 -> 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
+	Add "|cat /etc/*_webpass/*30%3B" behind "file=" in the URL.
+
+natas30 -> WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
