@@ -161,5 +161,7 @@ natas29 -> 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
 	Add "|cat /etc/*_webpass/*30%3B" behind "file=" in the URL.
 
 natas30 -> WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
+	Send request with user "natas31" and random password
+	Intercept request and replace password parameter with "''+or+1&password=4" (everything after 'password=')
 
 natas31 -> m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
