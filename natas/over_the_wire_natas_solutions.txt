@@ -165,3 +165,5 @@ natas30 -> WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
 	Intercept request and replace password parameter with "''+or+1&password=4" (everything after 'password=')
 
 natas31 -> m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
+
+natas32	-> NaIWhW2VIrKqrc7aroJVHOZvk3RQMi0B
