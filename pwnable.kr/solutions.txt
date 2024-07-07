@@ -1,1 +1,7 @@
-fd -> echo LETMEWIN |./fd 4660
+fd -> mommy! I think I know what a file descriptor is!!
+  echo LETMEWIN | ./fd 4660
+
+//byte values are 1, 2^8, 2^16 and 2^24, repeated five times
+//adds up to value of given hash
+col -> daddy! I just managed to create a hash collision :)
+  ./col $(echo -e "\x2F\x02\x5F\x06\x2F\x02\x5F\x06\x2F\x02\x5F\x06\x2F\x02\x5F\x06\x30\x01\x61\x08")
