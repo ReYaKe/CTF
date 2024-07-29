@@ -1,3 +1,7 @@
 cyborg1 -> 2:
 Get-ADUser -Identity chris.rogers -Properties state
 kansas
+
+cyborg2 -> 3:
+Get-DnsServerResourceRecord -ZoneName "underthewire.tech" -Name "CYBORG718W100N"
+172.31.45.167_ipv4
