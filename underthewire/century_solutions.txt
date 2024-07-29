@@ -59,3 +59,8 @@ i_authenticate_things
 century13 -> 14:
 Get-Content C:\users\century13\desktop\countmywords | Measure-Object –Word
 755
+
+century14 -> 15:
+(Select-String -Path ".\countpolos" -Pattern " polo" -AllMatches).Matches.Count (No space after polo due to last word being polo)
+153
+
