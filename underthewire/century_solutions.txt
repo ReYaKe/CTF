@@ -45,3 +45,7 @@ dir
 Get-Service
 Get-WmiObject win32_service | ?{$_.Name -like 'wuauserv'} | select Description
 windowsupdates110
+
+century11 -> 12:
+dir -Hidden -Recurse -ErrorAction Ignore ..
+secret_sauce
