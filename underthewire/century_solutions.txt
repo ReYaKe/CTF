@@ -49,3 +49,9 @@ windowsupdates110
 century11 -> 12:
 dir -Hidden -Recurse -ErrorAction Ignore ..
 secret_sauce
+
+century12 -> 13:
+Get-ADDomainController -Filter *
+check NAME (CN)
+Get-ADComputer -Identity NAME -Properties *
+i_authenticate_things
