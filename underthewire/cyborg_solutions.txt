@@ -11,3 +11,8 @@ cyborg3 -> 4:
 dir
 (Get-ADGroupMember -Identity 'Cyborg').Count
 88_objects
+
+cyborg4 -> 5:
+dir
+Get-Module -ListAvailable
+bacon_eggs
