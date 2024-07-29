@@ -26,3 +26,7 @@ cyborg6 -> 7:
 dir
 [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Get-Content cypher.txt)))
 cybergeddon
+
+cyborg7 -> 8:
+Get-WmiObject -Class Win32_StartupCommand | Select-Object Name, Command, Location
+skynet
