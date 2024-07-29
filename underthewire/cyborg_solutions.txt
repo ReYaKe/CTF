@@ -16,3 +16,8 @@ cyborg4 -> 5:
 dir
 Get-Module -ListAvailable
 bacon_eggs
+
+cyborg5 -> 6:
+dir
+get-aduser -Filter * -Properties LogonHours | Where-Object { $_.LogonHours }
+rowray_timer
