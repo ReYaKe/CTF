@@ -1,0 +1,3 @@
+cyborg1 -> 2:
+Get-ADUser -Identity chris.rogers -Properties state
+kansas
