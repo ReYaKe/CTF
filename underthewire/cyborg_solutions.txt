@@ -3,5 +3,11 @@ Get-ADUser -Identity chris.rogers -Properties state
 kansas
 
 cyborg2 -> 3:
+dir
 Get-DnsServerResourceRecord -ZoneName "underthewire.tech" -Name "CYBORG718W100N"
 172.31.45.167_ipv4
+
+cyborg3 -> 4:
+dir
+(Get-ADGroupMember -Identity 'Cyborg').Count
+88_objects
