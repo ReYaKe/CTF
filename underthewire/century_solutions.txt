@@ -39,3 +39,9 @@ century9 -> 10:
 OR
 Write-Host ((Get-Content "Word_File.txt").split() | Select-Object -Index 160)
 pierid
+
+century10 -> 11:
+dir
+Get-Service
+Get-WmiObject win32_service | ?{$_.Name -like 'wuauserv'} | select Description
+windowsupdates110
