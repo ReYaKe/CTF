@@ -8,3 +8,4 @@ SM what?! (Forensics | Easy):
 
 GREETINGS (Web | Warmup):
   Possible inject in HTML through username (doesn't seem sanitized)
+  <script>alert(document.a);</script> works , though unclear which info to get with this
