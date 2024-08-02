@@ -1,2 +1,7 @@
 License (Reverse | Warmup):
   Key has to be 16 characters long.
+
+SM what?! (Forensics | Easy):
+  TFCCTF{tool_service_ip_share}
+  ip = possibly 10.23.123.11
+  share = ADMIN$
