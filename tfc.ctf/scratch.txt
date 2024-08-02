@@ -11,4 +11,8 @@ GREETINGS (Web | Warmup):
   <script>alert(document.a);</script> works , though unclear which info to get with this
 
 Genetics (Crypto | Warmup):
-  Likely hofill related (name) and DNA encryption
+  Likely DNA encryption
+  Chunks of 4 = 1 Ascii char
+  Substitution Cypher lead to a string but it was incorrect (i will get this as a tattoo real soon)
+  Sub Cypher was "correct" just that we needed to map each DNA-Sequence and use the Binary to create the flag
+  TFCCTF{1_w1ll_g3t_th1s_4s_4_t4tt00_V3ry_s00n}
