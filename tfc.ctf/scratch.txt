@@ -1,1 +1,2 @@
-
+License (Reverse | Warmup):
+  Key has to be 16 characters long.
