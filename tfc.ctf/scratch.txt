@@ -5,6 +5,8 @@ SM what?! (Forensics | Easy):
   TFCCTF{tool_service_ip_share}
   ip = possibly 10.23.123.11
   share = ADMIN$
+  tool = RDP, WMI, something that uses ntml (have no clue how to find out)
+  service = likely SMB (due to the way files were accessed but who the fuck knows)
 
 GREETINGS (Web | Warmup):
   Possible inject in HTML through username (doesn't seem sanitized)
