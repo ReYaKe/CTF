@@ -1,1 +1,1 @@
-1,1755e5bcb85dc2786de932d826419f56  (on Sirat Expressway, north of Victory Monument, Bangkok)
+1,1755e5bcb85dc2786de932d826419f56 -> soylent_green (on Sirat Expressway, north of Victory Monument, Bangkok)
