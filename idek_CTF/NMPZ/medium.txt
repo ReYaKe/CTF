@@ -2,7 +2,7 @@
 2,0e8368ee81b0cadffa2d0199b17be81f -> and_my_compass (State Highway 80 near Lake Pukaki, New Zealand)
 3,5dd302f03e495b7a888a4b66686ccec0 -> sea_adventure (Plajjet Bognor, St. Paul's Bay, Malta)
 4,227b1b59720a42a04f2cff396f5a41a6 -> beach_property (Av. Ivan Loureiro near Lucio Futevol, Sao Luis, Brazil)
-
+5,bcc9a94dd9b9026121dd4a7b5d106a87 -> stairway_to_heaven (Byrampen Utkikkspunkt, Alesund, Norway)
 6,b047238f02c1753e02473be44696319b -> a_circle (Victory Park, Salekhard, Russia)
 
 
