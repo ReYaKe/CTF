@@ -2,3 +2,7 @@
 2,ec72b5bdb83f858308142a0d3dde5714 (Paris Las Vegas)
 3,c82846bd8de1579487c290fe0ef30700 (Erskine Street, Darling Harbour, Sydney)
 4,399a088ff464a1a43ed3d6864c7f50b5 (near Torre Eiffel, Torrejon de Ardoz, Madrid)
+5,fc26a083d35cb9d6b474580017f8bdfa (next to Tokyo Tower, Tokyo)
+6,836c35892e7643f71668376d1716e44e (Messedamm, Funkturm, Berlin)
+7,aef9cc02ac17e0a806c2204fceea74f1 (Saltivs'ke Hwy, in front of IMAX, Kharkiv)
+8,158686d31f2b18c862c765f95c336a0b (Mini Eiffel Tower, at Golden Sands Resort near Varna, Bulgaria)
