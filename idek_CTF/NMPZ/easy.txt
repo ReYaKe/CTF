@@ -1,0 +1,4 @@
+1,1e3f2a0309b777b37b1bc12d01203339 (Ecole Militaire, Paris)
+2,ec72b5bdb83f858308142a0d3dde5714 (Paris Las Vegas)
+3,c82846bd8de1579487c290fe0ef30700 (Erskine Street, Darling Harbour, Sydney)
+4,399a088ff464a1a43ed3d6864c7f50b5 (near Torre Eiffel, Torrejon de Ardoz, Madrid)
