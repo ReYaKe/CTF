@@ -4,3 +4,7 @@
 4,227b1b59720a42a04f2cff396f5a41a6 -> beach_property (Av. Ivan Loureiro near Lucio Futevol, Sao Luis, Brazil)
 
 6,b047238f02c1753e02473be44696319b -> a_circle (Victory Park, Salekhard, Russia)
+
+
+
+10,6ad16986db46a887fede9e3e94a9254d -> pulled_over (Obudo plateau, mountain road near Ikwete)
