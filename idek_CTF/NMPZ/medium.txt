@@ -6,5 +6,5 @@
 6,b047238f02c1753e02473be44696319b -> a_circle (Victory Park, Salekhard, Russia)
 7,483fccbc89f12386a3a45ea0d6045dcb -> idek_islands -> (Cruz Bay, western coast of St. John, U.S. Virgin Islands)
 8,9a42dc243f89fd0a26952434b1936c1a -> drunk_driving (on NR10, Marker 166, north-west of Butare, Rwanda)
-
+??? -> wrong_side (possibly a country with left traffic. Truck might just be overtaking.)
 10,6ad16986db46a887fede9e3e94a9254d -> pulled_over (Obudo plateau, mountain road near Ikwete, Nigeria)
