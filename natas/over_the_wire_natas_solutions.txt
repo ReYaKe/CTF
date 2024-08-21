@@ -66,9 +66,42 @@ natas10 -> t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu:
 	^ /etc/natas_webpass/natas11 #
 	
 natas11 -> UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk:
-		<?
+		
+	<?
 		function xor_encrypt($in) {
-			$key = '<censored>';
+			$key = json_encode(array( "showpassword"=>"no", "bgcolor"=>"#ffffff"));
+			$text = $in;
+			$outText = '';
+
+			// Iterate through each character
+			for($i=0;$i<strlen($text);$i++) {
+				$outText .= $text[$i] ^ $key[$i % strlen($key)];
+			}
+
+			return $outText;
+		}
+
+		function saveData($d) {
+			return(base64_encode(xor_encrypt(json_encode($d))));
+		}
+
+		$data = array( "showpassword"=>"yes", "bgcolor"=>"#asfdaw");
+
+		#print saveData($data);
+		
+		$l = base64_decode('HmYkBwozJw4WNyAAFyB1VUcqOE1JZjUIBis7ABdmbU1GIjEJAyIxTRg=');
+		
+		
+		$j = xor_encrypt($l);
+		print $j;
+		
+		?>
+
+
+
+	<?
+		function xor_encrypt($in) {
+			$key = 'eDWo';
 			$text = $in;
 			$outText = '';
 
@@ -90,13 +123,14 @@ natas11 -> UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk:
 		?>
 		
 		Get data cookie
-		Base64 decodeSecret
+		Base64 decode the cookie
 		Use decoded string as $in for xor_encrypt
-		Use stringified json data as key
+		Use stringified json data as key ($key = json_encode(array( "showpassword"=>"no", "bgcolor"=>"#ffffff"));)
 		Output is repeated key
 		Take repeated part of output -> eDWo
-		Use eDWO as key + standard input (with showpassword set to yes)
+		Use eDWo as key + standard input (with showpassword set to yes)
 		Result is the new cookie.
+		Use Burp or Firefox console to change cookie and refresh.
 		
 natas12 -> yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB:
 	Create script:
